@@ -1,0 +1,58 @@
+.animation {
+    -webkit-animation: animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ease-in-out;
+    animation: animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.animation:hover {
+    -webkit-animation: slide_bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    ;
+    animation: slide_bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes animation {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes animation {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+}
+
+@-webkit-keyframes slide_bottom {
+    0% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide_bottom {
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

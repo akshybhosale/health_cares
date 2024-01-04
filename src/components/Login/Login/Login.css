@@ -1,0 +1,13 @@
+.Login-btns {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.body-link-text-style {
+    color: #212121;
+}
+
+.body-link-text-style:hover {
+    color: #d81b60;
+}
