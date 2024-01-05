@@ -9,7 +9,7 @@ carousel for advertisement
 Services list and images with details
 Doctors list
 Appointment page
-Responsive Footer
+Responsive Footer        
 The Package uses in this project:
 
 Material Ui
