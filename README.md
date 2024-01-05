@@ -25,100 +25,66 @@ The Package uses in this project:
     9-𝕽𝖊𝖆𝖈𝖙 𝖘𝖜𝖆𝖑 𝖆𝖑𝖊𝖗𝖙
     10-𝕽𝖊𝖆𝖈𝖙 𝕲𝖔𝖔𝖌𝖑𝖊 𝕭𝖚𝖙𝖙𝖔𝖓
 
+
                                                          𝒅𝒆𝒎𝒐 𝒊𝒎𝒂𝒈𝒆𝒔► 
- Home page Desktop
+                                     ミ💖 нσмє ραgє ∂єѕктσρ 💖彡  (͡◕ ͜ʖ ͡◕)٭ 𝐻🌺𝓂o𝑒 𝓅𝒶𝑔𝑒 𝒟𝑒𝓈𝓀𝓉🌺𝓅 (͡◕ ͜ʖ ͡◕)
+
                                        ![Alt text](screenshot/healthcaress.netlify.app_home_desktop.png)
 
-Login Page Desktop
+★¸.•☆•.¸★ 𝓛𝓞𝓖𝓘𝓝 𝓟𝓐𝓖𝓔  ★⡀.•☆•.★
                                         ![Alt text](screenshot/healthcaress.netlify.app_login.png)
 
 
 
-Service Page Desktop
+𝒮𝑒𝓇𝓋𝒾𝒸𝑒𝓈 𝓅𝒶𝑔𝑒 𝒟𝑒𝓈𝓀𝓉🏵𝓅
                                         ![Alt text](screenshot/healthcaress.netlify.app__services.png)
                                                         Home page Mobile
 
- Doctors Page Desktop
+♥❤♥.¸¸•❤  𝘿𝙤𝙘𝙩𝙤𝙧𝙨 𝙋𝙖𝙜𝙚 𝘿𝙚𝙨𝙠𝙩𝙤𝙥 ❤•¸¸.♥❤♥
                                         ![Alt text](screenshot/healthcaress.netlify.app__doctor.png)
 
 
-About page Desktop
+෴❤️෴ Äßðµ† þågê Ðê§k†ðþ ෴❤️෴ 
                                         ![Alt text](screenshot/healthcaress.netlify.app_about.png)
 
 
-Appointment page Desktop
+̲A̲̲p̲̲p̲̲o̲̲i̲̲n̲̲t̲̲m̲̲e̲̲n̲̲t̲ ̲p̲̲a̲̲g̲̲e̲ ̲D̲̲e̲̲s̲̲k̲̲t̲̲o̲̲p̲
                                         ![Alt text](screenshot/healthcaress.netlify.app__appointment.png)
 
 
-Home mobile                                                        
+❤꧁ღ⊱♥ ⱧØ₥Ɇ ₥Ø฿łⱠɆ   ♥⊱ღ꧂❤                                                      
 ![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_home.png>)
 
                                                        
-                                                         Login Page Mobile
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_login.png>)
-
-
-
-                                                         Register  Page Mobile
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_login_register.png>)
-
-
-                                                       
-
-
-Service Page Mobile
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_services.png>)
-
-                                                           
-
-
-Docter Page Mobile                                                           
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_docter.png>)
-                                                           
-                                                           
-
-
-Appointment page Mobile                                                           
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_appointment.png>)
-                                                           
-                                                          
-
-
-
-                                                           About page mobile 
-![Alt text](<screenshot/healthcaress.netlify.app_(iPhone 14 Pro Max)_about.png>)
-
-
 
                                                         
-                                     -----------------𝑨𝒅𝒅𝒊𝒕𝒊𝒐𝒏𝒂𝒍 𝒊𝒏𝒇𝒐-----------------
+                 -----------------𝑨𝒅𝒅𝒊𝒕𝒊𝒐𝒏𝒂𝒍 𝒊𝒏𝒇𝒐-----------------
+                 
+                 Getting Started with Create A Health Cares App By using following steps
+                 This project was bootstrapped with Reactjs framework.
+                 
+                 Available Scripts
+                 In the project directory, you can run:
+                 
+                 git init
+                 git clone https://github.com/akshybhosale/health_cares
+                 
+                 Install a npm packages and Material UI bootstrapped packages
+                 npm start
+                 Runs the app in the development mode.
+                 Open http://localhost:3000 to view it in your browser.
+                 
+                 npm run build
+                 Builds the app for production to the build folder.
+                 It correctly bundles React in production mode and optimizes the build for the best performance.
+                 
+                 The build is minified and the filenames include the hashes.
+                 Your app is ready to be deployed!
+                 
+                 Deploy YourS project on Netlify
+                 https://app.netlify.com/sites/healthcaress/deploys/6597fa8603256b000891f758
+                 
                                      
-                                     Getting Started with Create A Health Cares App By using following steps
-                                     This project was bootstrapped with Reactjs framework.
-                                     
-                                     Available Scripts
-                                     In the project directory, you can run:
-                                     
-                                     git init
-                                     git clone https://github.com/akshybhosale/health_cares
-                                     
-                                     Install a npm packages and Material UI bootstrapped packages
-                                     npm start
-                                     Runs the app in the development mode.
-                                     Open http://localhost:3000 to view it in your browser.
-                                     
-                                     npm run build
-                                     Builds the app for production to the build folder.
-                                     It correctly bundles React in production mode and optimizes the build for the best performance.
-                                     
-                                     The build is minified and the filenames include the hashes.
-                                     Your app is ready to be deployed!
-                                     
-                                     Deploy YourS project on Netlify
-                                     https://app.netlify.com/sites/healthcaress/deploys/6597fa8603256b000891f758
-                                     
-                                     See the section about deployment for more information.
-
 
                                                         
 ![Alt text](<screenshot/best of luck.jpg>)
