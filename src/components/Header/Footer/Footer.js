@@ -15,6 +15,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import HealingTwoToneIcon from "@mui/icons-material/HealingTwoTone";
 import CallIcon from "@mui/icons-material/Call";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Footer.css";
@@ -217,15 +218,15 @@ const Footer = () => {
                   className="avatar"
                   sx={{ mb: 1, mt: 1, bgcolor: pink[500] }}
                 >
-                  <FacebookIcon />
+                  <InstagramIcon />
                 </Avatar>
                 <a
                   className="text-style"
-                  href="https://www.facebook.com/profile.php?id=100010635427663"
+                  href="https://www.instagram.com/akshaybhosale_1/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Akshay on Facebook
+                  Akshay on Instagram
                 </a>
               </Stack>
 
