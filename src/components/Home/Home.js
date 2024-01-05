@@ -1,5 +1,5 @@
 import { Button, Container, TextField, Typography } from '@mui/material';
-import { Box, width } from '@mui/system';
+import { Box} from '@mui/system';
 import React from 'react';
 import About from '../About/About';
 import Banner from './Banner/Banner';

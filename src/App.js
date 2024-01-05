@@ -1,38 +1,37 @@
-
-import { Switch } from 'react-router-dom';
-import { Route } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
-import './App.css';
-import About from './components/About/About';
-import Header from './components/Header/Header/Header';
-import Home from './components/Home/Home';
-import { ThemeProvider } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
-import Notfound from './components/Notfound/Notfound';
-import Footer from './components/Header/Footer/Footer';
-import Login from './components/Login/Login/Login';
-import Register from './components/Login/Login/Register/Register';
-import Authprovider from './Context/Authprovider';
-import Services from './components/Services/Services';
-import Doctors from './components/Services/Doctors/Doctors';
-import Appointment from './components/Services/Appointment/Appointment';
-import ServiceDetails from './components/Services/ServiceDetails/ServiceDetails';
-import PrivetRoute from './PrivetRoute/PrivetRoute';
+import { Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import About from "./components/About/About";
+import Header from "./components/Header/Header/Header";
+import Home from "./components/Home/Home";
+import { ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
+import Notfound from "./components/Notfound/Notfound";
+import Footer from "./components/Header/Footer/Footer";
+import Login from "./components/Login/Login/Login";
+import Register from "./components/Login/Login/Register/Register";
+import Authprovider from "./Context/Authprovider";
+import Services from "./components/Services/Services";
+import Doctors from "./components/Services/Doctors/Doctors";
+import Appointment from "./components/Services/Appointment/Appointment";
+import ServiceDetails from "./components/Services/ServiceDetails/ServiceDetails";
+import PrivetRoute from "./PrivetRoute/PrivetRoute";
 
 // custom style for this application
 export const myTheme = createTheme({
   palette: {
     primary: {
-      main: '#e91e63',
+      main: "#e91e63",
     },
     secondary: {
-      main: '#f48fb1',
+      main: "#f48fb1",
     },
     alternate: {
-      main: '#fff',
+      main: "#fff",
     },
     text: {
-      secondary: '#212121',
+      secondary: "#212121",
     },
   },
   typography: {
@@ -41,8 +40,7 @@ export const myTheme = createTheme({
     fontWeightRegular: 500,
     fontWeightMedium: 600,
     fontWeightBold: 700,
-  }
-
+  },
 });
 
 function App() {
@@ -53,37 +51,37 @@ function App() {
           <BrowserRouter>
             <Header></Header>
             <Switch>
-              <Route exact path='/'>
+              <Route exact path="/">
                 <Home></Home>
               </Route>
-              <Route path='/home'>
+              <Route path="/home">
                 <Home></Home>
               </Route>
-              <PrivetRoute path='/doctors'>
+              <PrivetRoute path="/doctors">
                 <Doctors></Doctors>
               </PrivetRoute>
-              <Route path='/login'>
+              <Route path="/login">
                 <Login></Login>
               </Route>
-              <Route path='/register'>
+              <Route path="/register">
                 <Register></Register>
               </Route>
-              <Route path='/about'>
+              <Route path="/about">
                 <About></About>
               </Route>
-              <Route path='/profile'>
+              <Route path="/profile">
                 <Login></Login>
               </Route>
-              <PrivetRoute path='/appointment'>
+              <PrivetRoute path="/appointment">
                 <Appointment></Appointment>
               </PrivetRoute>
-              <Route exact path='/services'>
+              <Route exact path="/services">
                 <Services></Services>
               </Route>
-              <PrivetRoute exact path='/services/details/:servId'>
+              <PrivetRoute exact path="/services/details/:servId">
                 <ServiceDetails></ServiceDetails>
               </PrivetRoute>
-              <Route path='*'>
+              <Route path="*">
                 <Notfound></Notfound>
               </Route>
             </Switch>
@@ -92,7 +90,6 @@ function App() {
         </ThemeProvider>
       </Authprovider>
     </>
-
   );
 }
 
