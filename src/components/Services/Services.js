@@ -47,9 +47,9 @@ const Services = () => {
             Our Services
           </Typography>
 
-          <Grid container spacing={3}>
+          <Grid container spacing={3} style={{justifyContent: 'center'}}>
             {services[0]?.map((service) => (
-              <Grid key={service.id} item xs={12} sm={6} md={6} lg={4}>
+              <Grid key={service.id} item xs={12} sm={6} md={6} lg={4} style={{justifyContent: 'center'}} >
                 <Card
                   sx={{
                     mx: "auto",
@@ -63,7 +63,7 @@ const Services = () => {
                     ":hover img": {
                       transform: "scale(1.1)",
                     },
-                  }}
+                  }} 
                 >
                   <CardActionArea>
                     <CardMedia

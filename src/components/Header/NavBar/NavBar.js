@@ -69,8 +69,15 @@ const Navbar = () => {
               sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
             >
               {" "}
+              <MenuItem
+                  bgcolor="primary"
+                  component={HashLink}
+                  smooth
+                  to="/home"
+                >
               <HealingTwoToneIcon fontSize="large" />
               Health Care Hospital
+              </MenuItem>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -108,7 +115,7 @@ const Navbar = () => {
                   bgcolor="primary"
                   component={HashLink}
                   smooth
-                  to="/home#home"
+                  to="/home"
                 >
                   HOME
                 </MenuItem>
@@ -117,7 +124,7 @@ const Navbar = () => {
                   bgcolor="primary"
                   component={HashLink}
                   smooth
-                  to="/services#services"
+                  to="/services"
                 >
                   SERVICES
                 </MenuItem>
@@ -126,7 +133,7 @@ const Navbar = () => {
                   bgcolor="primary"
                   component={HashLink}
                   smooth
-                  to="/doctors#doctors"
+                  to="/doctors"
                 >
                   DOCTORS
                 </MenuItem>
@@ -134,7 +141,7 @@ const Navbar = () => {
                   bgcolor="primary"
                   component={HashLink}
                   smooth
-                  to="/appointment#appointment"
+                  to="/appointment"
                 >
                   APPOINTMENT
                 </MenuItem>
@@ -143,7 +150,7 @@ const Navbar = () => {
                   bgcolor="primary"
                   component={HashLink}
                   smooth
-                  to="/about#about"
+                  to="/about"
                 >
                   ABOUT
                 </MenuItem>
